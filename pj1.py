@@ -42,11 +42,12 @@ if i == 3 :
 else:
     print("Sa continuam!")
 time.sleep(0.5)
+print("\033[3;4;36mIn ce an a fost revolutia? Scrie litera corespunzatoare raspunsului corect!\033[0m ")
 print("\033[3;4;36ma)1900\033[0m")
 print("\033[3;4;36mb)1989\033[0m")
 print("\033[3;4;36mc)2000\033[0m")
 time.sleep(0.5)
-d = str(input("\033[3;4;36mIn ce an a fost revolutia? Scrie litera corespunzatoare raspunsului corect!\033[0m "))
+d = str("haha")
 if d == "b":
     i=i+1
 time.sleep(0.5)
