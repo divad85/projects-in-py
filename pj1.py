@@ -6,10 +6,10 @@ time.sleep(0.5)
 print("a)Regatul Unit")
 print("b)Statele Unite")
 print("c)Rusia")
-time.sleep(3.5)
+time.sleep(2.5)
 a=input("Raspuns:")
 i = 0
-if a == "c":
+if a.strip() == "c" or a.strip() == "C":
     i=i+1
 time.sleep(1.5)
 print("Urmatoarea intrebare:")
@@ -19,10 +19,10 @@ time.sleep(0.5)
 print("\033[1;34ma)Venus\033[0m")
 print("\033[1;34mb)Mercur\033[0m")
 print("\033[1;34mc)Marte\033[0m")
-time.sleep(3.5)
+time.sleep(2.5)
 b = input("\033[1;34mRaspuns:\033[0m")
 
-if b == "b":
+if b.strip() == "b" or b.strip() == "B":
     i=i+1
 time.sleep(1.5)
 print("Next:")
@@ -32,9 +32,9 @@ time.sleep(0.5)
 print("\033[3;33ma)1914\033[0m")
 print("\033[3;33mb)1939\033[0m")
 print("\033[3;33mc)1918\033[0m")
-time.sleep(3.5)
+time.sleep(2.5)
 c = input("\033[3;33mRaspuns:\033[0m")
-if c == "a":
+if c.strip() == "a" or c.strip() == "A":
     i=i+1
 time.sleep(1.5)
 if i == 3 :
@@ -46,9 +46,9 @@ print("\033[3;4;36mIn ce an a fost revolutia? Scrie litera corespunzatoare raspu
 print("\033[3;4;36ma)1900\033[0m")
 print("\033[3;4;36mb)1989\033[0m")
 print("\033[3;4;36mc)2000\033[0m")
-time.sleep(3.5)
+time.sleep(2.5)
 d = input("\033[3;4;36mRaspuns:\033[0m ")
-if d == "b":
+if d.strip() == "b" or d.strip() == "B":
     i=i+1
 time.sleep(0.5)
 print("Ultima intrebare:")
@@ -57,9 +57,9 @@ print("\033[1;3;4;;35mCati oameni sunt aproximativ pe Pamant? Scrie litera cores
 print("\033[1;3;4;;35ma)8 000 000 000\033[0m")
 print("\033[1;3;4;;35mb)7 000 000 000\033[0m")
 print("\033[1;3;4;;35mc)9 000 000 \033[0m")
-time.sleep(3.5)
+time.sleep(2.5)
 e = input("\033[1;3;4;;35mRaspuns:\033[0m ")
-if e == "a":
+if e.strip() == "a" or e.strip() == "A":
     i=i+1
 time.sleep(1.5)
 print("Felicitari! Ai raspuns corect la "+str(i)+" intrebari!")
@@ -68,7 +68,7 @@ if i == 5:
     print('Adica la toate :)')
 time.sleep(2)
 f = int(input('Pe o scara de la 1 la 10, cat de mult ti-a placut acest joculet?'))
-if f <= 5:
+if f < 5:
     print("Imi pare rau ca nu prea ti-a placut!")
 elif f >= 5:
     print("Ma bucur mult ca ti-a placut!")
