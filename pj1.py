@@ -47,7 +47,7 @@ print("\033[3;4;36ma)1900\033[0m")
 print("\033[3;4;36mb)1989\033[0m")
 print("\033[3;4;36mc)2000\033[0m")
 time.sleep(0.5)
-d = str("haha")
+d = str("haha2")
 if d == "b":
     i=i+1
 time.sleep(0.5)
