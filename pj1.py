@@ -66,7 +66,7 @@ print("Felicitari! Ai raspuns corect la "+str(i)+" intrebari!")
 time.sleep(2)
 if i == 5:
     print('Adica la toate :)')
-time.sleep(2)
+time.sleep(1.5)
 f = int(input('Pe o scara de la 1 la 10, cat de mult ti-a placut acest joculet?'))
 if f < 5:
     print("Imi pare rau ca nu prea ti-a placut!")
