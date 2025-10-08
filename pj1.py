@@ -1,12 +1,12 @@
 import time
 print("Salut! Sa iti testam cultura generala!")
 time.sleep(1.5)
-input("Care este cea mai mare tara din lume? Scrie litera corespunzatoare raspunsului corect!")
+print("Care este cea mai mare tara din lume? Scrie litera corespunzatoare raspunsului corect!")
 time.sleep(0.5)
 print("a)Regatul Unit")
 print("b)Statele Unite")
 print("c)Rusia")
-time.sleep(1.5)
+time.sleep(3.5)
 a=input("Raspuns:")
 i = 0
 if a == "c":
@@ -19,7 +19,7 @@ time.sleep(0.5)
 print("\033[1;34ma)Venus\033[0m")
 print("\033[1;34mb)Mercur\033[0m")
 print("\033[1;34mc)Marte\033[0m")
-time.sleep(0.5)
+time.sleep(3.5)
 b = input("\033[1;34mRaspuns:\033[0m")
 
 if b == "b":
@@ -32,8 +32,8 @@ time.sleep(0.5)
 print("\033[3;33ma)1914\033[0m")
 print("\033[3;33mb)1939\033[0m")
 print("\033[3;33mc)1918\033[0m")
-time.sleep(0.5)
-c = input("Raspuns:")
+time.sleep(3.5)
+c = input("\033[3;33mRaspuns:\033[0m")
 if c == "a":
     i=i+1
 time.sleep(1.5)
@@ -46,17 +46,19 @@ print("\033[3;4;36mIn ce an a fost revolutia? Scrie litera corespunzatoare raspu
 print("\033[3;4;36ma)1900\033[0m")
 print("\033[3;4;36mb)1989\033[0m")
 print("\033[3;4;36mc)2000\033[0m")
-time.sleep(0.5)
-d = str("haha23")
+time.sleep(3.5)
+d = input("\033[3;4;36mRaspuns:\033[0m ")
 if d == "b":
     i=i+1
 time.sleep(0.5)
 print("Ultima intrebare:")
+time.sleep(0.5)
+print("\033[1;3;4;;35mCati oameni sunt aproximativ pe Pamant? Scrie litera corespunzatoare raspunsului corect!\033[0m ")
 print("\033[1;3;4;;35ma)8 000 000 000\033[0m")
 print("\033[1;3;4;;35mb)7 000 000 000\033[0m")
 print("\033[1;3;4;;35mc)9 000 000 \033[0m")
-time.sleep(0.5)
-e = str(input("\033[1;3;4;;35mCati oameni sunt aproximativ pe Pamant? Scrie litera corespunzatoare raspunsului corect!\033[0m "))
+time.sleep(3.5)
+e = input("\033[1;3;4;;35mRaspuns:\033[0m ")
 if e == "a":
     i=i+1
 time.sleep(1.5)
